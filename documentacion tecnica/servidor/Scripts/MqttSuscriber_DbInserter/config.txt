@@ -1,0 +1,15 @@
+
+[DB]
+user= root
+password= root
+host= 127.0.0.1
+port= 3306
+database= pulsioximetrodb
+
+
+[BROKER]
+broker_address = 8.tcp.ngrok.io
+borker_port = 15493
+topic = #
+broker_username= user1
+broker_password= pass1

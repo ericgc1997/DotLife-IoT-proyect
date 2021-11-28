@@ -1,0 +1,15 @@
+Please change parameters configuration in gateway.conf file to your proyect requirements
+
+Devices indicates the MAC number device of the devices that are being conected 
+(you can add more devices writin deviceN = MAC, where N in device is one number for each device existing in your network connecting to the gateway via BLE)
+
+Broker_address is the ip your broker is located inside your local network
+broker_port is the port you are using to connect to your broker (standar MQTT is 1883)
+topic is the topic you are deciding to link your MQTT message (write "#" if you don't need or want a topic)
+
+user and pasword are your credentials when you DO NOT allow anonimous users to connect (if you want to allow anonimous
+users to read and write to and from your broker check line 76)
+
+
+
+

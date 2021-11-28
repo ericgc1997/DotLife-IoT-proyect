@@ -1,0 +1,12 @@
+[DB]
+user= root
+password= root
+host= 127.0.0.1
+port= 3306
+database= pulsioximetrodb
+
+
+[SOCKET]
+client_address = 212.170.50.89
+port = 80
+headerSize =30
