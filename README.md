@@ -1,4 +1,5 @@
 # DotLife-IoT-proyect
+
 Solución IoT Vertical: Desde la lectura de datos de un sensor, hasta la aplicación de usuario.
 
 **->Canvas modelo de negocio y presentación**    --Informacion relativa a un posible modelo de negocio basado en la solución 
@@ -17,3 +18,5 @@ tecnica expuesta.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**->Scripts.**   --scripts que se encargan del envio y recepcion de información  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**->MqttSuscriber_DbInserter.** -- Script que recive la información del broker y la guarda adecuadamente en la base de datos.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**->Server_socket.**   --Script que crea un socket de comunicación con la aplicacion de usuario y envia los datos solicitados por la aplicacion.  
+
+## 6/2021
