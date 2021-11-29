@@ -4,9 +4,7 @@ Solución IoT Vertical: Desde la lectura de datos de un sensor, hasta la aplicac
 **->Canvas modelo de negocio y presentación**    --Informacion relativa a un posible modelo de negocio basado en la solución 
 tecnica expuesta.  
 
-
-
-**->documentación tócnica**  
+**->documentación técnica**  
 &nbsp;&nbsp;&nbsp;**->Documentación funcional.pdf**  
 &nbsp;&nbsp;&nbsp;**->documentación técnica de la solución.pdf**   
 &nbsp;&nbsp;&nbsp;**->aplicación de usuario** --App que muestra al usuario una interfaz con los datos procedentes del servidor.   
