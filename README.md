@@ -1,5 +1,5 @@
 # DotLife-IoT-proyect
-Vertical IoT solution: From reading data with a sensor to an application hosted in a cloud server
+Solución IoT Vertical: Desde la lectura de datos de un sensor, hasta la aplicación de usuario.
 
 **->Canvas modelo de negocio y presentación**    --Informacion relativa a un posible modelo de negocio basado en la solución 
 tecnica expuesta.  
