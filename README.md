@@ -71,3 +71,16 @@ servidor.
 - MqttSuscriber_DbInserter.: Script que recibe la información del broker y la guarda adecuadamente en la base de datos.  
 - Server_socket: Script que crea un socket de comunicación con la aplicacion de usuario y envia los datos solicitados por la aplicacion.  
 
+
+<p align="center">
+  <img src="https://github.com/ericgc1997/DotLife-IoT-proyect/blob/master/pictures/Network%20scheme.png">  
+  <p align="center"> Esquema de comunicación</p>  
+</p>  
+<p align="center">
+  <img src="https://github.com/ericgc1997/DotLife-IoT-proyect/blob/master/pictures/ejemplo%20aplicacion%20de%20usuario.png" width= "470" height="300">
+  <p align="center"> Aplicación de usuario</p>  
+</p>  
+<p align="center">
+  <img src="https://github.com/ericgc1997/DotLife-IoT-proyect/blob/master/pictures/comunnication%20app.png" width= "450"height="300">
+  <p align="center"> Comunicacion Servidor-Aplicación</p>  
+</p>  
