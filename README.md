@@ -1,6 +1,6 @@
 # DotLife-IoT-proyect
 #### 6/2021 Eric Garcia
-Solución IoT Vertical: Desde la lectura de datos de un sensor, hasta la aplicación de usuario.
+Vertical IoT solution: From sensor data reading up to the user interface.
 
 ```bash
 │   .gitignore
@@ -54,21 +54,19 @@ Solución IoT Vertical: Desde la lectura de datos de un sensor, hasta la aplicac
 └───pictures
 ```
 
-
-- Canvas modelo de negocio y presentación**    --Informacion relativa a un posible modelo de negocio basado en la solución 
-tecnica expuesta.  
-- Documentación funcional.pdf: archivo en el que se explica el porque se ha elegido cada una de las herramientas
-- documentación técnica de la solución.pdf: archivo en el que se explica paso a paso como se ha realizado el proyecto
+(Please keep in mind that some of the documentation files are writen in spanish)  
+- Canvas modelo de negocio y presentación: Information regarding a possible business model based on the technical solution presented.   
+- Documentación funcional.pdf: file explaining the reason to chose each one of the tools used in the solution 
+- documentación técnica de la solución.pdf: file explaining the steps needed to develope this project
 - aplicación de usuario: App que muestra al usuario una interfaz con los datos procedentes del servidor.   
-- gateway: scripts que se encargan de gestionar un gateway BLE a MQTT.  
-- BluethootReceiver_MqttPubliser: script que se conecta con diversos dispositivos BLE (polling) y envia sus datos a un broker MQTT local  
-- GatewayMQTT: Broker MQTT que envia la informacion recibida en el Broker local a otro broker MQTT en la nube (MQTT Bridge)   
-- Módulo: Archivos .ino que configuran y gestionan un pulsioximetro i2c crean un UUID BLE y envia esta informacion a un receptor BLE que se conecte a este.   
-servidor. 
-- DB_pulsioxímetro2: Base de datos.  
-- Scripts.: scripts que se encargan del envio y recepcion de información  
-- MqttSuscriber_DbInserter.: Script que recibe la información del broker y la guarda adecuadamente en la base de datos.  
-- Server_socket: Script que crea un socket de comunicación con la aplicacion de usuario y envia los datos solicitados por la aplicacion.  
+- gateway: BLE and MQTT managing scripts for a gateway  
+- BluethootReceiver_MqttPubliser: scripts to manage BLE devices data receiving (polling) and data sending to a MQTT broker
+- GatewayMQTT: MQTT Broker that manage the infromation receibed in the local Broker to the cloud Broker (MQTT Bridge)
+- Módulo: .ino Files that configure and manage an i2c pulse-oximeter, and send this information to a BLE receiver .    
+- DB_pulsioxímetro2: data base.  
+- Scripts.:  scripts in head od data transmision from and to the server.
+- MqttSuscriber_DbInserter.: Script that receives the broker information and stores it appropriately in the database.  
+- Server_socket: Script that creates a comunication socket to trasfer data form the database to the user application and vice versa
 
 
 <p align="center">
