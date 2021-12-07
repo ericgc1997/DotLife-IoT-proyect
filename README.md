@@ -79,5 +79,5 @@ Vertical IoT solution: From sensor data reading up to the user interface.
 </p>  
 <p align="center">
   <img src="https://github.com/ericgc1997/DotLife-IoT-proyect/blob/master/pictures/comunnication%20app.png" width= "450"height="300">
-  <p align="center"> Servidor-Application communication</p>  
+  <p align="center"> Server-Application communication</p>  
 </p>  
